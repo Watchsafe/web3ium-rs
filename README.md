@@ -16,12 +16,12 @@ Web3ium currently supports three mainstream public chains: Ethereum (EVM), Solan
 - Account management
   - Create an account with a mnemonic phrase
   - Create an account with a private key
-- Transaction signing
+- Transaction sign
   - Support for Legacy transactions
   - Support for EIP1559 transactions
-- Message signing
-  - EIP191 signing
-  - EIP712 typed data signing
+- Message sign
+  - EIP191 sign
+  - EIP712 typed data sign
 - DEX interface support
   - Uniswap V2
   - Kyber
@@ -46,11 +46,11 @@ web3ium/
     - [x] Mnemonic phrase generation
     - [x] Private key generation for different chains
 - [x] Ethereum basic functions
-    - [x] EIP-191, EIP-712 signing
-    - [x] Transaction signing
-    - [ ] Transaction parsing
+    - [x] EIP-191, EIP-712 sign
+    - [x] Transaction sign
+    - [ ] Transaction parse
     - [ ] Simulate transactions
-    - [ ] MEV (flashbot) encapsulation
+    - [ ] MEV (flashbot)
     - [ ] DEX
         - [ ] kyberswap
         - [ ] ODOS
@@ -58,14 +58,14 @@ web3ium/
         - [ ] curve
         - [ ] balancer
 - [ ] Solana function development
-    - [ ] Message signing
-    - [ ] Transaction signing and simulation
-    - [ ] MEV (jito) encapsulation
+    - [ ] Message sign
+    - [ ] Transaction sign and simulation
+    - [ ] MEV (jito)
     - [ ] DEX
         - [ ] Jup
         - [ ] Raydium
 - [ ] Bitcoin function development
-    - [ ] Message signing
-    - [ ] Transaction signing
+    - [ ] Message sign
+    - [ ] Transaction sign
     - [ ] PSBT
     - [ ] DEX
