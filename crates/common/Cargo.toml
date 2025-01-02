@@ -1,0 +1,18 @@
+[package]
+name = "web3ium-common"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bip39 = { version = "2.1.0", features = ["rand", "unicode-normalization"] }
+alloy-signer-local = { version = "0.9.1", features = [ "mnemonic", "keystore"] }
+alloy-signer = "0.9.1"
+alloy-primitives = "0.8.15"
+bs58 = "0.5.1"
+k256 = "0.13.4"
+solana-sdk = "2.1.7"
+bitcoin = { version = "0.32.5", features = ["rand-std"] }
+ed25519-dalek = { version = "2.1.1", features = ["rand_core"] }
+rand = "0.8"
+hex = "0.4"
+thiserror = "2.0.9"
