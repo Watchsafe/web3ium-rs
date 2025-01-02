@@ -1,16 +1,18 @@
-# Web3ium
+# Web3ium 🚀
+[![EN](https://img.shields.io/badge/language-EN-blue.svg)](README.md) [![CN](https://img.shields.io/badge/语言-中文-red.svg)](README_zh.md)
+
 
 Web3ium is a multi-chain development toolkit that supports Ethereum (EVM), Solana, Bitcoin, and other major public chains. The project provides unified interfaces to handle basic functions such as account creation and signature verification on different chains.
 
-## Features
+## Features ✨ 
 Web3ium currently supports three mainstream public chains: Ethereum (EVM), Solana, and Bitcoin. Among them, Ethereum functions are the most complete. In the future, I will continue to expand support for more chains. The functions between chains are independent.
 
-### Common Functions
+### Common Functions 🌐
 - Mnemonic phrase generation and verification (BIP39)
 - Private key management
 - ED25519 signature algorithm support
 
-### Ethereum (EVM)
+### EVM
 - Account management
   - Create an account with a mnemonic phrase
   - Create an account with a private key
@@ -29,14 +31,16 @@ Web3ium currently supports three mainstream public chains: Ethereum (EVM), Solan
 - Basic account management functions
 
 ## Project Structure
+```
 web3ium/
 ├── crates/
-│ ├── common/ # Common function modules
-│ ├── evm/ # Ethereum-related functions
-│ ├── solana/ # Solana-related functions
-│ └── bitcoin/ # Bitcoin-related functions
+│   ├── common/ # Common function modules 🧩
+│   ├── evm/ # Ethereum-related functions ⟠
+│   ├── solana/ # Solana-related functions ◎
+│   └── bitcoin/ # Bitcoin-related functions ₿
+```
 
-## Development Status
+## Development Status 🚧
 
 - [x] Common function modules
     - [x] Mnemonic phrase generation
