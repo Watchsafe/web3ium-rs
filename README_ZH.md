@@ -50,10 +50,11 @@ web3ium/
     - [x] 交易签名
     - [x] 交易解析
     - [ ] 模拟交易
+    - [ ] 基于 cobo argus 的交易模块
     - [x] MEV(flashbot) 封装
-    - [ ] DEX
-        - [ ] kyberswap
-        - [ ] ODOS
+    - [ ] DEXES
+        - [x] kyberswap
+        - [x] ODOS
         - [ ] uniswapV2/V3
         - [ ] curve
         - [ ] balancer
@@ -61,12 +62,13 @@ web3ium/
     - [ ] message 签名
     - [ ] 交易签名，模拟
     - [ ] MEV(jito) 封装
-    - [ ] DEX
+    - [ ] DEXES
         - [ ] Jup
         - [ ] Raydium
 - [ ] Bitcoin 功能开发
     - [ ] message 签名
     - [ ] 交易签名
     - [ ] PSBT
-    - [ ] DEX
-
+    - [ ] DEXES
+      - [ ] DotSwap
+      - [ ] pizzaSwap

@@ -50,10 +50,11 @@ web3ium/
     - [x] Transaction sign
     - [x] Raw Transaction decode
     - [ ] Simulate transactions
+    - [ ] cobo argus
     - [x] MEV (flashbot)
-    - [ ] DEX
-        - [ ] kyberswap
-        - [ ] ODOS
+    - [ ] DEXES
+        - [x] kyberswap
+        - [x] ODOS
         - [ ] uniswapV2/V3
         - [ ] curve
         - [ ] balancer
@@ -61,11 +62,13 @@ web3ium/
     - [ ] Message sign
     - [ ] Transaction sign and simulation
     - [ ] MEV (jito)
-    - [ ] DEX
+    - [ ] DEXES
         - [ ] Jup
         - [ ] Raydium
 - [ ] Bitcoin function development
     - [ ] Message sign
     - [ ] Transaction sign
     - [ ] PSBT
-    - [ ] DEX
+    - [ ] DEXES
+      - [ ] DotSwap
+      - [ ] pizzaSwap
