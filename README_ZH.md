@@ -1,5 +1,5 @@
 # Web3ium
-[![EN](https://img.shields.io/badge/language-EN-blue.svg)](README.md) [![CN](https://img.shields.io/badge/语言-中文-red.svg)](README_zh.md)
+[![EN](https://img.shields.io/badge/language-EN-blue.svg)](README.md) [![CN](https://img.shields.io/badge/语言-中文-red.svg)](README_ZH.md)
 
 
 Web3ium 是一个多链开发工具包，支持以太坊(EVM)、Solana 和 Bitcoin 等多条公链。该项目提供了统一的接口来处理不同链上的账户创建、签名验证等基础功能。
@@ -48,9 +48,9 @@ web3ium/
 - [x] 以太坊基础功能
     - [x] EIP-191，EIP-712 签名
     - [x] 交易签名
-    - [ ] 交易解析
+    - [x] 交易解析
     - [ ] 模拟交易
-    - [ ] MEV(flashbot) 封装
+    - [x] MEV(flashbot) 封装
     - [ ] DEX
         - [ ] kyberswap
         - [ ] ODOS

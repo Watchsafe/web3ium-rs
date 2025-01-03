@@ -201,7 +201,7 @@ impl<'a> EvmSigner<'a> {
 mod tests {
 
     use super::*;
-    use alloy_primitives::{bytes, hex, Address, Bytes, I256, U256};
+    use alloy_primitives::{Address, Bytes, U256};
     use alloy_sol_types::{sol, SolCall};
     use serde::Serialize;
 

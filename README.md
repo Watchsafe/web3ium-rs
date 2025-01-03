@@ -1,5 +1,5 @@
 # Web3ium 🚀
-[![EN](https://img.shields.io/badge/language-EN-blue.svg)](README.md) [![CN](https://img.shields.io/badge/语言-中文-red.svg)](README_zh.md)
+[![EN](https://img.shields.io/badge/language-EN-blue.svg)](README.md) [![CN](https://img.shields.io/badge/语言-中文-red.svg)](README_ZH.md)
 
 
 Web3ium is a multi-chain development toolkit that supports Ethereum (EVM), Solana, Bitcoin, and other major public chains. The project provides unified interfaces to handle basic functions such as account creation and signature verification on different chains.
@@ -45,12 +45,12 @@ web3ium/
 - [x] Common function modules
     - [x] Mnemonic phrase generation
     - [x] Private key generation for different chains
-- [x] Ethereum basic functions
+- [ ] Ethereum basic functions
     - [x] EIP-191, EIP-712 sign
     - [x] Transaction sign
-    - [ ] Transaction parse
+    - [x] Raw Transaction decode
     - [ ] Simulate transactions
-    - [ ] MEV (flashbot)
+    - [x] MEV (flashbot)
     - [ ] DEX
         - [ ] kyberswap
         - [ ] ODOS
