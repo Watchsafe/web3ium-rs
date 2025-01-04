@@ -59,8 +59,8 @@ web3ium/
         - [ ] curve
         - [ ] balancer
 - [ ] Solana 功能开发
-    - [ ] message 签名
-    - [ ] 交易签名，模拟
+    - [x] message 签名
+    - [x] 交易签名，模拟
     - [ ] MEV(jito) 封装
     - [ ] DEXES
         - [ ] Jup

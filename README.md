@@ -59,8 +59,8 @@ web3ium/
         - [ ] curve
         - [ ] balancer
 - [ ] Solana function development
-    - [ ] Message sign
-    - [ ] Transaction sign and simulation
+    - [x] Message sign
+    - [x] Transaction sign and simulation
     - [ ] MEV (jito)
     - [ ] DEXES
         - [ ] Jup
