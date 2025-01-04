@@ -2,3 +2,13 @@
 name = "web3ium-solana"
 version = "0.1.0"
 edition = "2021"
+
+[dependencies]
+solana-sdk = { version = "2.1.7", features = ["full"] }
+bincode = "1.3.3"
+bs58 = "0.5.1"
+bip39 = { version = "2.1.0", features = ["rand", "unicode-normalization"] }
+thiserror = "2.0.9"
+
+[dev-dependencies]
+solana-client = "2.1.7"

@@ -14,16 +14,15 @@ pub enum EvmAccountError {
     InvalidPrivateKeyHex,
 }
 
-pub struct EvmAccount {
-    pub signer: LocalSigner<SigningKey>,
-}
-
 impl From<LocalSignerError> for EvmAccountError {
     fn from(err: LocalSignerError) -> Self {
         EvmAccountError::SignerError(err.to_string())
     }
 }
 
+pub struct EvmAccount {
+    pub signer: LocalSigner<SigningKey>,
+}
 
 impl EvmAccount {
     pub fn from_mnemonic(
@@ -41,9 +40,9 @@ impl EvmAccount {
 
     pub fn random_private_key() -> Result<Self, EvmAccountError> {
         let signer = PrivateKeySigner::random();
-        let private_key = signer.credential().to_bytes();
-        let private_key_hex = hex::encode(private_key);
-        println!("private_key_hex: {:?}", private_key_hex);
+        // let private_key = signer.credential().to_bytes();
+        // let private_key_hex = hex::encode(private_key);
+        // println!("private_key_hex: {:?}", private_key_hex);
         Ok(Self { signer })
     }
 
@@ -57,11 +56,9 @@ impl EvmAccount {
             private_key_hex
         };
 
-        let mut signer: PrivateKeySigner = private_key_hex.parse().unwrap();
-        // Some(1);
+        let signer: PrivateKeySigner = private_key_hex.parse().unwrap();
         
-        
-        signer.set_chain_id(Some(1));
+        // signer.set_chain_id(Some(1));
 
         // let signer = signer.set_chain_id(Some(1));
         Ok(Self { signer })
